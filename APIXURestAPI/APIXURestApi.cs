@@ -12,7 +12,7 @@ namespace APIXURestClient
         private string Key { get; set; }
 
         //Open your template file.
-        Workbook wb = new Workbook("e:\\test2\\Book1.xlsx");
+        Workbook wb = new Workbook("https://github.com/rashe1417/Weather-report-api/blob/main/in.xlsx");
         //Get the first worksheet.
         Worksheet worksheet = wb.Worksheets[0];
         //Get the cells collection.
